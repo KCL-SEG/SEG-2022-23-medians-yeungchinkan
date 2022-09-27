@@ -1,6 +1,9 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
+from statistics import median
+
+
 while True:
     try:
         print("Enter a list of numbers separated by commas: ")
@@ -10,3 +13,6 @@ while True:
     else:
         break
 print(numbers)
+print(median(numbers))
+
+
